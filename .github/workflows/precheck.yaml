@@ -102,6 +102,7 @@ jobs:
       - name: Install KLayout
         run: |
           wget https://www.klayout.org/downloads/Ubuntu-24/klayout_${KLAYOUT_VERSION}-1_amd64.deb
+          sudo apt-get update
           sudo apt-get install -y ./klayout_${KLAYOUT_VERSION}-1_amd64.deb
           pip install klayout==${KLAYOUT_VERSION}
 
