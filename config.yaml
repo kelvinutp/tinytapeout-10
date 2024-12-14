@@ -1,5 +1,5 @@
-id: 'tt10'
-name: 'Tiny Tapeout 10'
+id: '417271456132035585'
+name: 'taller de CASS'
 end_date: '2025-03-07'
 project_dir: 'projects'
 top_level_macro: 'openframe_project_wrapper'
